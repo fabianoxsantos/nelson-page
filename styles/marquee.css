@@ -1,0 +1,9 @@
+marquee {
+    background-color: rgba(255, 255, 255, 0.501);
+    height: 54px;
+    font-size: 40px;
+    font-weight: 300;
+    color: var(--second-color);
+    margin-bottom: 50px;
+
+}

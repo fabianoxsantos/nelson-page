@@ -1,0 +1,10 @@
+.main-title {
+    width: 80vw;
+    color: var(--second-color);
+    font-size: 7.5em;
+    line-height: 1em;
+    font-weight: 700;
+    margin: 120px 0 20px 0;
+    
+   
+}
