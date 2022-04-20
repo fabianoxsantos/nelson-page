@@ -39,6 +39,7 @@ h2 {
 
 h3 {
     font-size: 30px;
+    color: var(--second-color);
 }
 
 h5 {
@@ -54,7 +55,7 @@ h6 {
     font-size: 16px;
 }
 
-em {
+strong {
     font-weight: 600;
     text-decoration: none;
     font-style: normal;
@@ -69,10 +70,6 @@ p {
     font-weight: 300;
 }
 
-.banner {
-    width: 80vw;
-    margin: 30px 0px;
 
-}
 
 

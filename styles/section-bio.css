@@ -29,7 +29,7 @@
 }
 
 .dados-bio {
-    width: 25vw;
+    width: 30vw;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -52,13 +52,14 @@
 
 }
 
-.intro-bio {
-    width: 50vw;
-    font-size: 2.5em;
-    font-weight: 100;
-    line-height: 1.5em;
+.banner {
+    width: 80vw;
+    
+    
 
 }
+
+
 
 
 

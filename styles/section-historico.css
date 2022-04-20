@@ -4,19 +4,30 @@
 }
 
 .wrapper {
+    width: 80vw;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
 }
 
 .img-historico {
-    width: 50vw;
+    width: 29vw;
     margin-right: 30px;
     margin-bottom: 30px;
 }
 
-.second-title{
-    width: 50vw;
-    margin-bottom: 40px;
+
+
+.vertical-banner{
+    width: 39vw;
+    margin-right: 50px;
+}
+
+.wrapper02 {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 

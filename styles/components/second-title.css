@@ -1,0 +1,6 @@
+.second-title{
+    width: 80vw;
+    margin: 50px 0px;
+    padding-top: 20px;
+    border-top: solid 10px var(--second-color);
+}
