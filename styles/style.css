@@ -4,7 +4,7 @@ a{
     text-decoration: none;
     color: var(--second-color);
 }
-
+    
 a:hover {
   
     color: var(--terc-color);
