@@ -1,0 +1,6 @@
+footer{
+    width: 100vw;
+    height: 300px;
+    background-color: var(--second-color);
+    color: var(--main-color);
+}

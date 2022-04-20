@@ -1,0 +1,22 @@
+.historico {
+    width: 80vw;
+
+}
+
+.wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.img-historico {
+    width: 50vw;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.second-title{
+    width: 50vw;
+    margin-bottom: 40px;
+}
+
