@@ -1,6 +1,6 @@
 footer{
     width: 100vw;
-    height: 300px;
+    height: 250px;
     display: flex;
     justify-content: center;
     background-color: var(--second-color);
@@ -17,7 +17,8 @@ footer{
 .main-footer{
     width: 80vw;
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
+    gap: 40px;
     
 
 }
