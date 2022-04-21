@@ -8,6 +8,11 @@
 
     <link rel="shortcut icon" href="imgs/favicon-01.png" type="image/x-icon">
 
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
@@ -23,6 +28,7 @@
     <link rel="stylesheet" href="styles/components/second-title.css">
     <link rel="stylesheet" href="styles/discografia.css">
     <link rel="stylesheet" href="styles/section-sucesso.css">
+    <link rel="stylesheet" href="styles/components/title-main.css">
     <link rel="stylesheet" href="styles/components/title-section.css">
     <link rel="stylesheet" href="styles/section-docs.css">
     <link rel="stylesheet" href="styles/section-performances.css">
@@ -31,25 +37,26 @@
     
 </head>
 <body>
-    <header>
+    <header id="topo">
         <nav>
             <div class="logo">
                 <img src="imgs/violao.svg" alt="Imagem Violao">
             </div>
             <ul class="menu">
-                <li><a href="#">BIO</a></li>
-                <li><a href="#">DISCOGRAFIA</a></li>
-                <li><a href="#">SUCESSOS</a></li>
-                <li><a href="#">DOCS</a></li>
-                <li><a href="#">PERFORMANCES</a></li>
-                <li><a href="#">MATÉRIAS</a></li>
+                <li><a href="#historico">BIO</a></li>
+                <li><a href="#discografia">DISCOGRAFIA</a></li>
+                <li><a href="#sucessos">SUCESSOS</a></li>
+                <li><a href="#docs">DOCS</a></li>
+                <li><a href="#performances">PERFORMANCES</a></li>
+                <li><a href="#materias">MATÉRIAS</a></li>
             </ul>
         </nav>
     </header>
 
-    <div class="main-title">NELSON CAVAQUINHO</div>
-                
-    <section class="bio">
+    <div class="main-title animate__animated animate__fadeInUp" >NELSON CAVAQUINHO</div>
+
+                   
+    <section id="bio" class="bio">
         
         <div class="top-bio">
             <img class="imagem-bio" src="imgs/nelson-bio.png" alt="Imagen Nelson Cavaquinho Tocando">
@@ -84,7 +91,11 @@
     </div>
 
 
-    <section class="historico">
+    <section id="historico" class="historico">
+        <div class="title-main">
+            <h3 class="title-section">Bio</h3>
+            <h6 class="topo-button"><a href="#topo">TOPO</a></h6>
+        </div>
  
             <div class="wrapper">
                 <img class="img-historico" src="imgs/nelson_bar_01.png" alt="Imagem Nelson Bar">
@@ -137,8 +148,11 @@
     </section>
     
    
-    <section class="discografia">
-            <h3 class="title-section">Discografia</h3>
+    <section id="discografia" class="discografia">
+            <div class="title-main">
+                <h3 class="title-section">Discografia</h3>
+                <h6 class="topo-button"><a href="#topo">TOPO</a></h6>
+            </div>
             <div class="discos">
                 <div class="album">
                     <img src="imgs/disco-01.png" alt="Disco Depoimento do Poeta">
@@ -157,8 +171,11 @@
     </section>
 
 
-    <section class="sucesso">
+    <section id="sucessos" class="sucesso">
+        <div class="title-main">
             <h3 class="title-section">Sucessos</h3>
+            <h6 class="topo-button"><a href="#topo">TOPO</a></h6>
+        </div>
             <div class="main-player">
                 <table>
                     <tr>
@@ -229,8 +246,11 @@
             
     </section>
 
-    <section class="docs">
+    <section id="docs" class="docs">
+        <div class="title-main">
             <h3 class="title-section">Docs</h3>
+            <h6 class="topo-button"><a href="#topo">TOPO</a></h6>
+        </div>
 
             <div class="wrap-video">
                 <div class="main-thumb">
@@ -262,8 +282,11 @@
     </section>
 
         
-    <section class="perfor">
+    <section id="performances" class="perfor">
+        <div class="title-main">
             <h3 class="title-section">Performances</h3>
+            <h6 class="topo-button"><a href="#topo">TOPO</a></h6>
+        </div>
 
             <div class="wrap-perfor">
                 <div class="main-thumb">
@@ -292,8 +315,11 @@
             </div>
     </section>
 
-    <section class="materias">
-        <h3 class="title-section">Matérias</h3>
+    <section id="materias" class="materias">
+        <div class="title-main">
+            <h3 class="title-section">Matérias</h3>
+            <h6 class="topo-button"><a href="#topo">TOPO</a></h6>
+        </div>
 
         <div class="wrap-materias">
             <div class="main-thumb">
