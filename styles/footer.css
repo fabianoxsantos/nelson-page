@@ -1,6 +1,41 @@
 footer{
-    width: 80vw;
+    width: 100vw;
     height: 300px;
+    display: flex;
+    justify-content: center;
     background-color: var(--second-color);
     color: var(--main-color);
+}
+
+.footer-container{
+    width: 80vw;
+    display: flex;
+    
+    
+}
+
+.main-footer{
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.menu-footer {
+    line-height: 1.8em;
+    margin-top: 20px;
+}
+
+.menu-footer > li > a {
+    color: var(--main-color);
+}
+
+.menu-footer > li > a:hover{
+    color: black;
+}
+
+.fontes-footer {
+    line-height: 1.8em;
+    margin-top: 20px;
 }

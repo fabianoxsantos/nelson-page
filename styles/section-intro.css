@@ -1,0 +1,69 @@
+
+
+.main-title  {
+    width: 80vw;
+    color: var(--second-color);
+    font-size: 7.5em;
+    line-height: 1em;
+    font-weight: 700;
+    margin: 120px 0 20px 0;
+
+}
+
+
+
+
+
+
+.intro {
+    width: 80vw;
+    
+}
+
+.top-intro {
+    max-width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    
+}
+
+.imagem-bio{
+    max-width: 80vw;
+    margin-bottom: 30px;
+    
+    
+}
+
+.dados-bio {
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border: solid 1px var(--second-color);
+    padding: 30px;
+    letter-spacing: 0.12em;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+.wrap {
+    width: 80vw;
+    display: flex;
+    
+
+}
+
+.player-spot {
+    margin-top: 30px;
+
+}
+
+
+
+
+
+
+
+
