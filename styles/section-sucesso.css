@@ -1,0 +1,61 @@
+.sucesso {
+    width: 80vw
+}
+
+.main-player {
+    width: 80vw;
+    color: var(--second-color);
+    margin-bottom: 50px;
+    border-top: solid 1px var(--second-color);
+    border-bottom: solid 1px var(--second-color);
+    padding: 10px;
+}
+.musica {
+    font-size: 1.2em;
+    font-weight: 500;
+    margin-right: 20px;
+    
+}
+table {
+    width: 80vw;
+}
+
+
+tr:hover {
+    background-color: rgba(255, 255, 255, 0.36);
+}
+
+.play-icon {
+    width: 25px;
+}
+
+.letra {
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.disco {
+    width: 30vw;
+    
+}
+
+.disco:hover{
+    -webkit-animation: spin 1s linear infinite;
+    -moz-animation: spin 1s linear infinite;
+    animation: spin 1s linear infinite;
+    cursor: t;
+}
+
+@-webkit-keyframes spin {
+    100%{-webkit-transform: rotate(360deg);}
+}
+
+@-moz-keyframes spin {
+    100%{-webkit-transform: rotate(360deg);}
+}
+
+@keyframes spin {
+    100%{-webkit-transform: rotate(360deg);}
+}

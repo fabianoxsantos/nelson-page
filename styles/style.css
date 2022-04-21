@@ -4,7 +4,7 @@ a{
     text-decoration: none;
     color: var(--second-color);
 }
-    
+
 a:hover {
   
     color: var(--terc-color);
@@ -40,6 +40,8 @@ h2 {
 h3 {
     font-size: 30px;
     color: var(--second-color);
+    font-weight: 500;
+    
 }
 
 h5 {
@@ -68,6 +70,13 @@ p {
     color: var(--terc-color);
     line-height: 40px;
     font-weight: 300;
+}
+
+.legenda {
+    color: var(--second-color);
+    line-height: 1.2em;
+    margin-top: 20px;
+    font-weight: 500;
 }
 
 

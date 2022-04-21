@@ -1,0 +1,53 @@
+.perfor {
+    width: 80vw;
+
+}
+
+.wrap-perfor {
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.main-thumb {
+    width: 38vw;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+
+}
+
+.perfor-thumb {
+    width: 50vw;
+    position: relative;
+    
+}
+
+.icon-play {
+    position: absolute;
+    width: 50px;
+    background-color: rgba(255, 255, 255, 0.491);
+    bottom: 40px;
+    left: 40px;
+    border-radius: 50px;
+    
+}
+
+.icon-play:hover{
+   background-color: var(--main-color); 
+}
+
+.title-video {
+    font-size: 1.5em;
+    font-weight: 400;
+    margin-top: 15px;
+    
+}
+
+.legenda-video{
+    font-size: 1.0em;
+    line-height: 1.5em;
+    font-weight: 300;
+}
+

@@ -1,0 +1,64 @@
+.materias {
+    width: 80vw;
+
+}
+
+.wrap-materias {
+    width: 80vw;
+    display: flex;
+    
+}
+
+.materias-perfor {
+    width: 80vw;
+    display: flex;
+    
+}
+
+.logo-elpais{
+    height: 50px;
+    margin-bottom: 50px;
+
+}
+
+.logo-piaui{
+    height: 80px;
+    margin-bottom: 20px;
+
+}
+
+
+.main-thumb {
+    
+    display: flex;
+    
+    margin-bottom: 20px;
+
+}
+
+.materias-thumb {
+    
+    
+    
+    
+}
+
+
+
+.icon-play:hover{
+   background-color: var(--main-color); 
+}
+
+.title-video {
+    font-size: 1.5em;
+    font-weight: 400;
+    margin-top: 15px;
+    
+}
+
+.legenda-video{
+    font-size: 1.0em;
+    line-height: 1.5em;
+    font-weight: 300;
+}
+
