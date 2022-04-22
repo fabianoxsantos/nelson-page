@@ -84,6 +84,11 @@ p {
     font-weight: 500;
 }
 
+img {
+    transition-timing-function: ease;
+    transition-duration: 3s;
+}
+
 
 
 
