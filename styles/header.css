@@ -9,6 +9,12 @@ header {
 
 .logo {
     min-width: 100px;
+    transition: all ease-in-out;
+    
+}
+.logo:hover {
+    min-width: 103px;
+    transform:  scale(1);
     
 }
 
