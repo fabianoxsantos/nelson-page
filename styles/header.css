@@ -70,25 +70,46 @@ nav .menu a {
         }
     }    
 
-@media (max-width: 420px) {
+@media (max-width: 370px) {
 
     nav {
-        width: 340px;
+        width: 300px;
         height: auto;
+        flex-direction: column;
         }
 
     nav .menu a {
-        font-size: 16px;
-        line-height: 2.0em;
+        font-size: 18px;
+        line-height: 2.8em;
         letter-spacing: 0.08em;
         } 
 
     .logo {
-        margin-top: 5px;
-        padding: 5px;
+       
         
-    }    
+        }    
+
+    .logo {
+        display: none;
+        transform: rotate(0deg);
+        margin-top: 20px;
+        }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;  
+        padding-bottom: 5px;
+    }
     
+    nav .menu {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0px 10px;
+        margin-left: 0px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
     
         
     
