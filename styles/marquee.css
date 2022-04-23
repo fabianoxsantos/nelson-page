@@ -7,3 +7,16 @@ marquee {
     margin-bottom: 20px;
 
 }
+
+@media (max-width: 370px) {
+
+    marquee {
+        background-color: rgba(255, 255, 255, 0.501);
+        height: 34px;
+        font-size: 25px;
+        font-weight: 300;
+        color: var(--second-color);
+        margin-bottom: 20px;
+
+
+}

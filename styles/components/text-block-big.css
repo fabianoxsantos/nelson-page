@@ -7,3 +7,16 @@
     
 
 }
+
+@media (max-width: 370px) {
+
+    .text-block-big {
+        width: 300px;
+        font-size: 1.3em;
+        font-weight: 200;
+        line-height: 1.5em;
+        margin-top: 30px;
+        margin-bottom: 30px;
+
+}
+}

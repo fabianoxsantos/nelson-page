@@ -1,7 +1,8 @@
 .banner {
     width: 80vw;
     margin-bottom: 30px;
-    
-    
+}
 
+@media (max-width: 370px) {
+    
 }
