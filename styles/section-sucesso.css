@@ -59,3 +59,23 @@ tr:hover {
 @keyframes spin {
     100%{-webkit-transform: rotate(360deg);}
 }
+
+@media (max-width: 570px) {
+
+    .disco {
+        display: none;
+        
+    }
+
+    .musica {
+        font-size: 1.0em;
+    }
+
+    .autores {
+        display: none;
+        font-size: 0.6em;
+    }
+
+
+
+}

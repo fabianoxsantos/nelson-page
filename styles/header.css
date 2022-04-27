@@ -70,7 +70,7 @@ nav .menu a {
         }
     }    
 
-@media (max-width: 370px) {
+@media (max-width: 375px) {
 
     nav {
         width: 300px;

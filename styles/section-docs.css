@@ -7,11 +7,11 @@
     width: 80vw;
     display: flex;
     justify-content: space-between;
+    
 }
 
 
 .main-thumb {
-    width: 38vw;
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
@@ -50,5 +50,43 @@
     font-size: 1.0em;
     line-height: 1.5em;
     font-weight: 300;
+}
+
+@media (max-width: 570px) {
+
+    
+    .wrap-video {
+        display: flex;
+        flex-direction: column;
+       
+    }
+
+    .doc-img{
+        width: 450px;
+    }
+
+
+    .main-thumb {
+        width: 18px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+
+    }
+
+    .doc-thumb {
+        width: 18px;
+        
+        
+    }
+        
+        
+    
+
+   
+
+    
+
+
 }
 

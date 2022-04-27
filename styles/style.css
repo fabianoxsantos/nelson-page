@@ -72,9 +72,9 @@ strong {
 }
 
 p {
-    font-size: 20px;
+    font-size: 1.0em;
     color: var(--terc-color);
-    line-height: 40px;
+    line-height: 1.5em;
     font-weight: 300;
 }
 

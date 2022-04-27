@@ -19,7 +19,7 @@
 }
 
 .vertical-banner{
-    width: 39vw;
+    width: 29vw;
     margin-right: 50px;
 }
 
@@ -29,10 +29,11 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+    gap: 30px;
 }
 
 
-@media (max-width: 370px) {
+@media (max-width: 570px) {
 .topo-button {
     display: none;
 }
@@ -58,6 +59,12 @@
     margin-top: 30px;
     
     
+}
+
+.vertical-banner{
+    width: 100%;
+    margin-right: 50px;
+    margin-bottom: 30px;
 }
 
 

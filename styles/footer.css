@@ -24,8 +24,9 @@ footer{
 }
 
 .menu-footer {
-    line-height: 1.8em;
+    line-height: 1.9em;
     margin-top: 20px;
+    margin-right: 40px;
 }
 
 .menu-footer > li > a {
@@ -39,4 +40,9 @@ footer{
 .fontes-footer {
     line-height: 1.8em;
     margin-top: 20px;
+}
+
+.fontes-footer::after {
+    width: 100%;
+    border: solid 1px black;
 }
